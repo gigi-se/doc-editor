@@ -1,0 +1,45 @@
+
+.page-a4-wrapper {
+  overflow: auto;
+  width: 100%;
+  min-width: 0;
+  padding: 16px;
+  background: #e9eaec;
+}
+
+.page-a4 {
+  box-sizing: border-box;
+  width: min(210mm, 100%);
+  min-height: 297mm;
+  padding: 20mm;
+  margin: 0 auto;
+  background: white;
+  color: #111;
+  text-align: left;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16);
+}
+
+.page-a4 h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0 0 16px;
+}
+
+.page-a4 h2 {
+  margin: 20px 0 8px;
+}
+
+.page-a4 p {
+  white-space: pre-wrap;
+}
+
+@media (max-width: 600px) {
+  .page-a4-wrapper {
+    padding: 8px;
+  }
+
+  .page-a4 {
+    padding: 24px;
+  }
+}
